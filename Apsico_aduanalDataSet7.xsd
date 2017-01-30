@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Apsico_aduanalDataSet7" targetNamespace="http://tempuri.org/Apsico_aduanalDataSet7.xsd" xmlns:mstns="http://tempuri.org/Apsico_aduanalDataSet7.xsd" xmlns="http://tempuri.org/Apsico_aduanalDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Apsico_aduanalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Apsico_aduanalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.APSICO_ADUANAL.Properties.Settings.GlobalReference.Default.Apsico_aduanalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Agencia_AduanalTableAdapter" GeneratorDataComponentClassName="Agencia_AduanalTableAdapter" Name="Agencia_Aduanal" UserDataComponentName="Agencia_AduanalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Apsico_aduanalConnectionString (Settings)" DbObjectName="Apsico_aduanal.dbo.Agencia_Aduanal" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT AgeNombre FROM dbo.Agencia_Aduanal</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AgeNombre" DataSetColumn="AgeNombre" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Apsico_aduanalDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Apsico_aduanalDataSet7" msprop:Generator_UserDSName="Apsico_aduanalDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Agencia_Aduanal" msprop:Generator_TableClassName="Agencia_AduanalDataTable" msprop:Generator_TableVarName="tableAgencia_Aduanal" msprop:Generator_TablePropName="Agencia_Aduanal" msprop:Generator_RowDeletingName="Agencia_AduanalRowDeleting" msprop:Generator_RowChangingName="Agencia_AduanalRowChanging" msprop:Generator_RowEvHandlerName="Agencia_AduanalRowChangeEventHandler" msprop:Generator_RowDeletedName="Agencia_AduanalRowDeleted" msprop:Generator_UserTableName="Agencia_Aduanal" msprop:Generator_RowChangedName="Agencia_AduanalRowChanged" msprop:Generator_RowEvArgName="Agencia_AduanalRowChangeEvent" msprop:Generator_RowClassName="Agencia_AduanalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AgeNombre" msprop:Generator_ColumnVarNameInTable="columnAgeNombre" msprop:Generator_ColumnPropNameInRow="AgeNombre" msprop:Generator_ColumnPropNameInTable="AgeNombreColumn" msprop:Generator_UserColumnName="AgeNombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8B6D078-E7C4-4F8C-AC29-F22081677A11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>APSICO_ADUANAL</RootNamespace>
+    <AssemblyName>APSICO_ADUANAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administradores.Designer.cs">
+      <DependentUpon>Administradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apsico_aduanalDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Apsico_aduanalDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Admin login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin login.Designer.cs">
+      <DependentUpon>Admin login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasesApAdu\Actualizar.cs" />
+    <Compile Include="ClasesApAdu\Conexion.cs" />
+    <Compile Include="ClasesApAdu\Consultar.cs" />
+    <Compile Include="ClasesApAdu\Eliminar.cs" />
+    <Compile Include="ClasesApAdu\Registrar.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agencia.Designer.cs">
+      <DependentUpon>Agencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Operadores.Designer.cs">
+      <DependentUpon>Operadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personal de Dependencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personal de Dependencias.Designer.cs">
+      <DependentUpon>Personal de Dependencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro de Previos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro de Previos.Designer.cs">
+      <DependentUpon>Registro de Previos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro de transferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro de transferencia.Designer.cs">
+      <DependentUpon>Registro de transferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Usuario.Designer.cs">
+      <DependentUpon>Registro_Usuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin login.resx">
+      <DependentUpon>Admin login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administradores.resx">
+      <DependentUpon>Administradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agencia.resx">
+      <DependentUpon>Agencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operadores.resx">
+      <DependentUpon>Operadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal de Dependencias.resx">
+      <DependentUpon>Personal de Dependencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registro de Previos.resx">
+      <DependentUpon>Registro de Previos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro de transferencia.resx">
+      <DependentUpon>Registro de transferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Usuario.resx">
+      <DependentUpon>Registro_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Apsico_aduanalDataSet.xsc">
+      <DependentUpon>Apsico_aduanalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet.xss">
+      <DependentUpon>Apsico_aduanalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet1.xsc">
+      <DependentUpon>Apsico_aduanalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet1.xss">
+      <DependentUpon>Apsico_aduanalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet10.xsc">
+      <DependentUpon>Apsico_aduanalDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet10.xss">
+      <DependentUpon>Apsico_aduanalDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet11.xsc">
+      <DependentUpon>Apsico_aduanalDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet11.xss">
+      <DependentUpon>Apsico_aduanalDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet12.xsc">
+      <DependentUpon>Apsico_aduanalDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet12.xss">
+      <DependentUpon>Apsico_aduanalDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet13.xsc">
+      <DependentUpon>Apsico_aduanalDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet13.xss">
+      <DependentUpon>Apsico_aduanalDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet14.xsc">
+      <DependentUpon>Apsico_aduanalDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet14.xss">
+      <DependentUpon>Apsico_aduanalDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet15.xsc">
+      <DependentUpon>Apsico_aduanalDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet15.xss">
+      <DependentUpon>Apsico_aduanalDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet16.xsc">
+      <DependentUpon>Apsico_aduanalDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet16.xss">
+      <DependentUpon>Apsico_aduanalDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet17.xsc">
+      <DependentUpon>Apsico_aduanalDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet17.xss">
+      <DependentUpon>Apsico_aduanalDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet18.xsc">
+      <DependentUpon>Apsico_aduanalDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet18.xss">
+      <DependentUpon>Apsico_aduanalDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet2.xsc">
+      <DependentUpon>Apsico_aduanalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet2.xss">
+      <DependentUpon>Apsico_aduanalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet3.xsc">
+      <DependentUpon>Apsico_aduanalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet3.xss">
+      <DependentUpon>Apsico_aduanalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet4.xsc">
+      <DependentUpon>Apsico_aduanalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet4.xss">
+      <DependentUpon>Apsico_aduanalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet5.xsc">
+      <DependentUpon>Apsico_aduanalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet5.xss">
+      <DependentUpon>Apsico_aduanalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet6.xsc">
+      <DependentUpon>Apsico_aduanalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet6.xss">
+      <DependentUpon>Apsico_aduanalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet7.xsc">
+      <DependentUpon>Apsico_aduanalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet7.xss">
+      <DependentUpon>Apsico_aduanalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet8.xsc">
+      <DependentUpon>Apsico_aduanalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet8.xss">
+      <DependentUpon>Apsico_aduanalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet9.xsc">
+      <DependentUpon>Apsico_aduanalDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Apsico_aduanalDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Apsico_aduanalDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Apsico_aduanalDataSet9.xss">
+      <DependentUpon>Apsico_aduanalDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ClasesApAdu\AP2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifs-animados-trabajar-en-la-exportacion-818972.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ruedas1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
